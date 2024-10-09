@@ -1,0 +1,8 @@
+{
+    "name": "docker-php/project-template",
+    "description": "A PHP Docker App with mailer functionality",
+    
+    "require": {
+        "phpmailer/phpmailer": "^6.9.1"
+    }
+}

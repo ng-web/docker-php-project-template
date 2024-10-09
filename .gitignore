@@ -1,0 +1,29 @@
+# Ignore environment files containing sensitive information
+.env
+
+# Ignore Composer dependencies
+/vendor/
+
+# Ignore Nginx logs
+/config/nginx_logs/
+
+# Ignore Docker-specific files and directories
+.dockerignore
+
+# Ignore IDE and editor configuration files
+*.vscode/
+*.idea/
+
+# Ignore node_modules if using Node.js for any assets
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+tmp/
+*.tmp
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
